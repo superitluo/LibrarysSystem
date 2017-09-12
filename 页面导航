@@ -1,0 +1,38 @@
+//图书管理模块
+
+       /*查询图书*/
+       SearchBookPanel
+      /*添加图书*/
+      AddBookPanel
+      /*删除图书*/
+      RemoveBookPanel 
+      
+ //读者管理模块
+ 
+        /*添加读者*/
+       AddReaderPanel
+       /*删除读者*/
+       RemoveReaderPanel
+       /*查询读者*/
+       SearchReaderPanel
+       /*编辑读者*/
+       EditorReaderPanel
+       
+//借阅管理模块     
+
+        /*借阅查询*/
+        SearchBorrowInfoPanel
+        /*办理借书*/
+        BorrowBookPanel
+        /*办理还书*/
+        ReturnBookPanel
+        /*办理续借*/
+        RenewBookPanel
+        
+ //帮助
+         /*系统简介*/ 
+         SystemIntroductionPanel
+         /*关于我们*/   
+         About   
+         /*意见反馈*/
+         rebackPanel

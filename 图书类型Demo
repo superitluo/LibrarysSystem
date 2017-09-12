@@ -1,0 +1,10 @@
+图书类型成员变量
+int id-图书类型id
+String name-图书类型名
+ 方法
+ 1.成员变量的获得与配置（getId()、setId()、getName、setName()）
+ 2.获得id对应的name;(getName(int id)),返回值 类型int(0表示获取失败！，或者没有数据)
+ 3.获得name对应的id;(getId(String name))返回值类型 String(null代表获取失败！或没有数据)
+ 4.获的全部的图书类型信息的map集合，获得无序HashMap，然后转成有序的TreeMap
+ 
+ 
