@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" 
+"http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+	<!-- struts2 的action必须放在包空间下定义 -->
+	<package name="default2" extends="struts-default" namespace="/com1">
+	
+	<!-- 设计默认的action当url输入错误的时候调用该action两个（name）“index”必须一致 -->
+	<default-action-ref  name="index"></default-action-ref>
+	<action name="index">
+	<result>/error.jsp</result>
+	</action>
+	
+	</package>
+</struts>
